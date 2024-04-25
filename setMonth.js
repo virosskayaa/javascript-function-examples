@@ -1,5 +1,6 @@
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
-console.log(false === '0');
-console.log( "A" - "B" + "2");
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
-const removeDuplicates = (arr) => [...new Set(arr)];
+console.log(false == '0');
+console.log("0 && 1 = "+(0 && 1));
+console.log(typeof typeof 1);
+const goToTop = () => window.scrollTo(0, 0);
+const electronDownloadPath = path.join(repositoryRootPath, 'electron');
+const randomInteger = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;

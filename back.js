@@ -1,3 +1,2 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const isArray = (arr) => Array.isArray(arr);
-var arr2 = arr1.reverse();
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);

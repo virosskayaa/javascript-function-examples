@@ -1,2 +1,3 @@
-const lastElement = arr => arr[arr.length - 1];
-const isArray = (arr) => Array.isArray(arr);
+const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const resultingPromises = urls.map((url) => makHttpRequest(url));

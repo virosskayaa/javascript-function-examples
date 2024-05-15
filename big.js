@@ -1,3 +1,2 @@
-var arr3 = "jones".split('');
-const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
-const isTabInView = () => !document.hidden;
+console.log(1 +  "2" + "2");
+const randomString = () => Math.random().toString(36).slice(2);

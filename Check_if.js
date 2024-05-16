@@ -1,1 +1,3 @@
-const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const flattenedArray = arr => [].concat(...arr);
+const merge = (a, b) => [...a, ...b];
+const apmRootPath = path.join(repositoryRootPath, 'apm');

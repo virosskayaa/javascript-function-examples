@@ -1,3 +1,1 @@
-const flattenedArray = arr => [].concat(...arr);
-const merge = (a, b) => [...a, ...b];
-const apmRootPath = path.join(repositoryRootPath, 'apm');
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);

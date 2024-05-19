@@ -1,2 +1,2 @@
-console.log(1 +  "2" + "2");
-const randomString = () => Math.random().toString(36).slice(2);
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;

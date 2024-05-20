@@ -1,2 +1,2 @@
-var arr1 = "john".split('');
-const results = await Promise.all(resultingPromises);
+const goToTop = () => window.scrollTo(0, 0);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");

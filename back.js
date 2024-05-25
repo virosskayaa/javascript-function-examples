@@ -1,1 +1,3 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const isTabInView = () => !document.hidden;
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+console.log( "A" - "B" + 2);

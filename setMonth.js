@@ -1,2 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const randomString = () => Math.random().toString(36).slice(2);
+const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));

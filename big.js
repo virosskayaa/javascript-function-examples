@@ -1,1 +1,2 @@
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+var arr3 = "jones".split('');
+const isEmptyArray = arr => !arr.length;

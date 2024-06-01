@@ -1,2 +1,3 @@
-const goToTop = () => window.scrollTo(0, 0);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+const toggleBool = () => (bool = !bool);

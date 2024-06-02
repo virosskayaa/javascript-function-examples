@@ -1,3 +1,2 @@
-const isTabInView = () => !document.hidden;
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-console.log( "A" - "B" + 2);
+const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log(+"1" +  "1" + "2");

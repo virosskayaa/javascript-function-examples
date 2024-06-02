@@ -1,1 +1,3 @@
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const appName = getAppName(channel);
+const fahrenheitToCelsius = (fahrenheit) => (fahrenheit - 32) * 5/9;
+const merge = (a, b) => [...a, ...b];

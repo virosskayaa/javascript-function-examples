@@ -1,3 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
-const toggleBool = () => (bool = !bool);
+console.log(1 +  "2" + "2");
+console.log(false == '0');
+const minNumber = arr => Math.min(...arr);

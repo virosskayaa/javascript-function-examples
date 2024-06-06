@@ -1,3 +1,3 @@
-console.log(1 +  "2" + "2");
-console.log(false == '0');
-const minNumber = arr => Math.min(...arr);
+console.log(false === '0');
+console.log(+"1" +  "1" + "2");
+const buildOutputPath = path.join(repositoryRootPath, 'out');

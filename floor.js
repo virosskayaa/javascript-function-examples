@@ -1,3 +1,3 @@
-console.log(false === '0');
-console.log(+"1" +  "1" + "2");
-const buildOutputPath = path.join(repositoryRootPath, 'out');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log(false == '0');
+function myAPITS(someString: string, someNum: number) { ... };

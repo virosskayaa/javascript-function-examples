@@ -1,2 +1,3 @@
-var pattern = {};
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+const isEven = (num) => num % 2 === 0;
+const fullName = name || 'buddy';
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);

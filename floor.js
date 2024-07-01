@@ -1,3 +1,3 @@
-const merge = (a, b) => [...a, ...b];
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const uniqueArr = (arr) => [...new Set(arr)];
+const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log(typeof typeof 1);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';

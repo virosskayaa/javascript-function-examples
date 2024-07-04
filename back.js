@@ -1,3 +1,3 @@
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
-const added = [0, 1, 2, 3, 4].map((item) => item + 1);
+console.log(1 +  "2" + "2");
+var arr2 = arr1.reverse();
+const isArray = (arr) => Array.isArray(arr);

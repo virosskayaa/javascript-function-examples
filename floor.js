@@ -1,3 +1,3 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-console.log(typeof typeof 1);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
+console.log(1 +  -"1" + "2");
+var arr2 = arr1.reverse();
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);

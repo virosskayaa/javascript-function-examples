@@ -1,3 +1,2 @@
-console.log( "A" - "B" + 2);
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
-console.log(typeof typeof 1);
+const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+const isTabInView = () => !document.hidden;

@@ -1,3 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const isArray = (arr) => Array.isArray(arr);
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
+const result = await makeHttpRequest(url);

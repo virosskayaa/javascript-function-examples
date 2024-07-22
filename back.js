@@ -1,2 +1,1 @@
-const value = ( 5 < 7 ) ? "True" : "False" ;
-const appName = getAppName(channel);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");

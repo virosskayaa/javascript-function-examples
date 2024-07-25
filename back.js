@@ -1,3 +1,2 @@
-var pattern = {};
-const isArray = (arr) => Array.isArray(arr);
-console.log(1 +  +"2" + "2");
+const arrayContains = (arr, element) => arr.includes(element);
+const apmRootPath = path.join(repositoryRootPath, 'apm');

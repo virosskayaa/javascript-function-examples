@@ -1,2 +1,3 @@
-var c = new Counter(); c.add(); c.add(); c.add();
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const repositoryRootPath = path.resolve(__dirname, '..');
+const merge = [...new Set(a.concat(b))];

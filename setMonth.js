@@ -1,3 +1,3 @@
-const currentDate = () => new Date().toLocaleDateString('en-US');
-const repositoryRootPath = path.resolve(__dirname, '..');
-const merge = [...new Set(a.concat(b))];
+const updated = numbers.filter(element => element > 6);
+const flattenedArray = arr => [].concat(...arr);
+const results = await Promise.all(resultingPromises);

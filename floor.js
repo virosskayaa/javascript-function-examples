@@ -1,3 +1,3 @@
-var arr2 = arr1.reverse();
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const stringReverse = str => str.split("").reverse().join("");
+const resultingPromises = urls.map((url) => makHttpRequest(url));
+console.log(+"1" +  "1" + "2");

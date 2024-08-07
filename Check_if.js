@@ -1,1 +1,2 @@
-console.log(false === '0');
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const isEven = (num) => num % 2 === 0;
